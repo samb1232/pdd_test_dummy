@@ -8,10 +8,6 @@ server = WEBrick::HTTPServer.new(Port: 9292)
 # 
 #
 # @todo #2: pls work. TEST 123
-# 
-#
-# @todo #3: Sure buddy
-# 
 #
 # @todo #4: Another try
 # 
