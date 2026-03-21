@@ -3,7 +3,7 @@ require 'json'
 
 server = WEBrick::HTTPServer.new(Port: 9292)
 
-# @todo #1:15min This is a properly formatted puzzle comment
+# @todo #10:15min new puzzle arived. New era!
 
 server.mount_proc '/' do |req, res|
   if req.request_method == 'POST'
