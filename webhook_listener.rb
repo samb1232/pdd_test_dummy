@@ -12,7 +12,7 @@ server = WEBrick::HTTPServer.new(Port: 9292)
 # @todo #11:15min new puzzle detected?
 
 
-# @todo #12:15min Hello world this project
+# @todo #12:15min Hello world this project!
 
 server.mount_proc '/' do |req, res|
   if req.request_method == 'POST'
